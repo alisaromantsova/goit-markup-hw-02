@@ -4,13 +4,14 @@
 --contrast-color: #ffffff;
 --pale-color: #757575;
 --section-color: #F5F4FA;
+--dark-color:#000000;
+--hero-color:#2F303A;
 }
 body{
 font-family: 'Roboto', sans-serif;
 color: var(--main-color);
 font-size: 14px;
 line-height: 1.36;
-letter-spacing: 0.03em;
 }
 
 .logo-text{
@@ -22,7 +23,7 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.06em;
 text-decoration: none;
-color: #000000;
+color: var(--dark-color);
 }
 .logo-accent{
 color: var(--accent-color)
@@ -47,7 +48,7 @@ color: var(--accent-color)
 }
 .contact{
     text-decoration: none;
-color: var(--main-color); 
+color: var(--pale-color); 
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -57,7 +58,7 @@ letter-spacing: 0.02em;
     color: var(--accent-color);
 }
 .hero-section{
-    background-color: #2F303A;
+    background-color: var(--hero-color);
 }
 .hero-text{
     font-weight: 900;
@@ -79,29 +80,25 @@ letter-spacing: 0.02em;
 }
 .hero-btn:hover,
 .hero-btn:focus{
-    opacity: 0.8;
-}
-.benefits{
-opacity: 0;
+ background-color: #188CE8;
 }
 .benefits-title{
-    font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 .benefits-text{
     line-height: 1.71;
+    font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--pale-color)
 }
 .action-title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
 }
 .team-title{
-  font-weight: 700;
     font-size: 36px;  
     line-height: 1.16;
     text-align: center;
@@ -125,11 +122,11 @@ opacity: 0;
     text-align: center;
 }
 .footer{
-    background-color: var(--main-color);
+    background-color: var(--hero-color);
 }
 .footer-logo{
     color: var(--contrast-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -144,8 +141,9 @@ opacity: 0;
 .footer-contact{
     opacity: .6;
 }
-.portfolio-title{
-opacity: 0;
+.footer-contact:hover,
+.footer-contact:focus{
+    color: var(--accent-color);
 }
 .menu-list-button{
     background-color: var(--section-color);
@@ -174,7 +172,6 @@ opacity: 0;
     text-decoration: none;
 }
 .cards-list-title{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
