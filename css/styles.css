@@ -86,6 +86,7 @@ letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 .benefits-text{
     line-height: 1.71;
@@ -97,11 +98,13 @@ letter-spacing: 0.02em;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .team-title{
     font-size: 36px;  
     line-height: 1.16;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .team{
     background-color:var(--section-color);
@@ -114,12 +117,14 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .team-list-text{
     font-size: 16px;
     line-height: 1.18;
     color: var(--pale-color);
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .footer{
     background-color: var(--hero-color);
@@ -137,6 +142,7 @@ letter-spacing: 0.02em;
     line-height: 1.71;
     color: var(--contrast-color);
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .footer-contact{
     opacity: .6;
@@ -156,6 +162,7 @@ letter-spacing: 0.02em;
     outline: none;
     border: none;
     cursor: pointer;
+    letter-spacing: 0.03em;
 }
 .menu-list-button:hover,
 .menu-list-button:focus,
@@ -181,6 +188,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.88;
     color: var(--pale-color);
+    letter-spacing: 0.03em;
 }
 .cards{
     border-width: 1px;
