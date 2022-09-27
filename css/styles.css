@@ -70,9 +70,9 @@ letter-spacing: 0.02em;
 .hero-btn{
     background-color: var(--accent-color);
     color: var(--contrast-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
@@ -149,6 +149,7 @@ opacity: 0;
     font-weight: 500;
     line-height: 1.62;
     font-size: 16px;
+    font-family: inherit;
     text-align: center;
     outline: none;
     border: none;
@@ -160,6 +161,10 @@ opacity: 0;
     background-color: var(--accent-color);
     color: var(--contrast-color);
     
+}
+.menu-btn-active{
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
 }
 .card-link{
     text-decoration: none;
