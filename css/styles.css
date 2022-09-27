@@ -77,6 +77,10 @@ letter-spacing: 0.02em;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+.hero-btn:hover,
+.hero-btn:focus{
+    opacity: 0.8;
+}
 .benefits{
 opacity: 0;
 }
